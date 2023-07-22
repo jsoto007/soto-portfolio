@@ -3,7 +3,7 @@
 export default function Haeder() {
 
   return (
-    <div className="bg-white" id="home">
+    <div className="bg-white dark:bg-slate-950" id="home">
 
       <div className="relative isolate px-6 pt-4 lg:px-8">
         <div
@@ -20,13 +20,13 @@ export default function Haeder() {
         </div>
         <div className="mx-auto max-w-2xl py-24 sm:py-48 lg:py-36 flex flex-row">
           <div className="text-left">
-            <h1 className="text-6xl font-bold tracking-tight text-blue-950 sm:text-8xl font-serif ">
+            <h1 className="text-6xl font-bold tracking-tight text-blue-950 dark:text-slate-100 sm:text-8xl font-serif ">
               Jose J. Soto
             </h1>
-            <h3 className="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl mt-6 font-sans">
+            <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-slate-100 sm:text-2xl mt-6 font-sans">
             Full-Stack Software Engineer
             </h3>
-            <p className="mt-3 text-lg leading-8 text-gray-800 font-sans">
+            <p className="mt-3 text-lg leading-8 text-gray-800 font-sans dark:text-slate-200">
             I love creating experiences that prioritize the user’s needs 
             and make things more efficient.
             </p> 

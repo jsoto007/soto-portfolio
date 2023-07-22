@@ -13,10 +13,10 @@ export default function Footer() {
   return (
   <footer className="footer footer-center p-10  mt-28 bg-base-200 text-base-content rounded">
   <div className="grid grid-flow-col gap-4">
-    <h5>Contact: <span className="font-semibold">jsoto7087@gmail.com</span></h5>
+    <h5>Contact: <span className="font-semibold dark:text-slate-100">jsoto7087@gmail.com</span></h5>
   </div> 
   <div>
-    <div className="grid grid-flow-col gap-4">
+    <div className="grid grid-flow-col gap-4 pt-2 px-3 rounded-lg dark:bg-slate-300">
       <button
       className='-mt-2 mr-2 active:bg-green-400 focus:bg-green-200 rounded-lg'
       onClick={() => {navigator.clipboard.writeText("jsoto7087@gmail.com")}}
@@ -30,14 +30,14 @@ export default function Footer() {
         <Image src={linkedin} alt="react Logo" height={40} width="auto"/>
       </a>
       <a
-      className='-mt-3'
+      className='-mt-3 -p-3'
       href="https://github.com/jsoto007"
       target="_blank"
       >
         <Image src={github} alt="react Logo" height={60} width="auto"/>
       </a>
       <a
-      className='-mt-1'
+      className='-mt-1 '
       href="https://medium.com/@JSotoPrograming"
       target="_blank"
       >
