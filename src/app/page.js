@@ -1,6 +1,7 @@
 import Header from './header'
 import About from './about'
 import Projects from './projects'
+import Footer from './footer'
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
     <Header />
     <About />
     <Projects />
-    
+    <Footer />
    </div>
   )
 }
