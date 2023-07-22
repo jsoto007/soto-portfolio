@@ -19,7 +19,7 @@ export default function About() {
       id="about"
     >
       <div 
-        className="px-10"
+        className="px-10 min-w-[26rem]"
       >
   
       <h3 className="text-md md:text-xl font-bold tracking-tight text-black mt-6">
@@ -35,7 +35,7 @@ export default function About() {
           My Skills
         </h3>
         <div className="mt-3 text-lg leading-8 text-black whitespace-normal">
-          Frontend
+          <span className='tracking-wider'>Frontend</span>
           <ul className='ml-10 mt-2 flex flex-row'>
             <li className='mr-5 ml-2 text-md'>
             <Image src={javaScript} alt="react Logo" height={40} />
@@ -59,13 +59,13 @@ export default function About() {
             </li>
             <li className='mr-5 ml-2 text-md'>
             <Image src={tailwind} alt="react Logo" height={35} />
-              Tailwindcss
+              TailwindCSS
             </li>
             
           </ul>
         </div>
         <div className="mt-5 text-lg leading-8 text-black whitespace-normal">
-          Backtend
+          <span className='tracking-wider'>Backtend</span>
           <ul className='ml-10 mt-2 flex flex-row'>
             <li className='mr-5 ml-2 text-md'>
             <Image src={rubyLogo} alt="react Logo" height={40} />
