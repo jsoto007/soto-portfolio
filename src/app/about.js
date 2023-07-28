@@ -15,7 +15,8 @@ export default function About() {
 
   return (
     <div 
-      className="backdrop-blur-xl bg-white/60 dark:bg-white/10 font-sans py-1 rounded-xl animate-fade-left animate-once animate-delay-[1000ms] animate-ease-in flex flex-row"
+      className="backdrop-blur-xl bg-white/60 dark:bg-white/10 font-sans py-1 rounded-xl animate-fade-left animate-once animate-delay-[1000ms] animate-ease-in flex flex-row animate-fade-left animate-once animate-delay-[2000ms] animate-ease-in
+      "
       id="about"
     >
       <div 
