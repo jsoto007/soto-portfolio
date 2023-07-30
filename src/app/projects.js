@@ -40,7 +40,7 @@ export default function Projects() {
 
     <div className="flex flex-row mt-16 font-sans">
      
-      <div className="text-black md:ml-28">
+      <div className="text-black text-balance lg:ml-20 md:ml-5 md:mr-10 min-w-[26rem]">
         <h3 className="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl mt-4 mb-4 font-sans dark:text-slate-100">
         Expense Tracker
         </h3>
@@ -76,7 +76,7 @@ export default function Projects() {
           className="rounded-xl h-auto max-w-xl ml-20 shadow-lg"
           src="https://images.pexels.com/photos/374016/pexels-photo-374016.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="project" />
       </div>
-      <div className="text-black md:ml-20">
+      <div className="text-black text-balance lg:ml-20 md:ml-5 md:mr-10 min-w-[26rem]">
         <h3 className="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl mt-4 mb-4 font-sans dark:text-slate-100">
         Todos API / React frontend
         </h3>
